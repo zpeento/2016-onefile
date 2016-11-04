@@ -23,32 +23,32 @@ app.get('/',function(req,res){
 		movies:[{
 			title:'机械战警',
 			_id:1,
-			poster:'htte://www.baidu.com'
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5'
 		},
 		{
 			title:'机械战警',
 			_id:2,
-			poster:'htte://www.baidu.com'
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5'
 		},
 		{
 			title:'机械战警',
 			_id:3,
-			poster:'htte://www.baidu.com'
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5'
 		},
 		{
 			title:'机械战警',
 			_id:4,
-			poster:'htte://www.baidu.com'
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5'
 		},
 		{
 			title:'机械战警',
 			_id:5,
-			poster:'htte://www.baidu.com'
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5'
 		},
 		{
 			title:'机械战警',
 			_id:6,
-			poster:'htte://www.baidu.com'
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5'
 		}]
 	}
 	res.render('pages/index',data)
@@ -62,9 +62,9 @@ app.get('/movie:id',function(req,res){
 			country:'美国',
 			title:'机械战警',
 			year:2014,
-			poster:'http://www.baidu.com',
+			poster:'http://r3.yking.com/05160000530EEB63675839160D0B79D5',
 			language:'英语',
-			flash:'http://www.baidu.com',
+			flash:'http://r3.yking.com/05160000530EEB63675839160D0B79D5',
 			summary:'这是一部非常好看的电影喔'
 		}]
 	}
@@ -100,7 +100,7 @@ app.get('/admin/list',function(req,res){
 			year:2014,
 			moment:0,
 			language:'英语',
-			flash:'http://www.baidu.com',
+			flash:'http://r3.yking.com/05160000530EEB63675839160D0B79D5',
 			summary:'这是一部非常好看的电影喔'
 		}
 	}
