@@ -15,11 +15,11 @@ app.use(express.static(path.join(__dirname,'bower_components')))
 
 app.listen(port);
 
-console.log('imooc started on port: ' + port);
+console.log('onefilm started on port: ' + port);
 
 app.get('/',function(req,res){
 	var data={
-		title:'imooc 首页',
+		title:'onefilm 首页',
 		movies:[{
 			title:'机械战警',
 			_id:1,
@@ -56,7 +56,7 @@ app.get('/',function(req,res){
 
 app.get('/movie:id',function(req,res){
 	var data = {
-		title:'imooc 详情页',
+		title:'onefilm 详情页',
 		movies:[{
 			doctor:'何塞',
 			country:'美国',
@@ -73,7 +73,7 @@ app.get('/movie:id',function(req,res){
 
 app.get('/admin/movie',function(req,res){
 	var data = {
-		title:'imooc 后台录入页',
+		title:'onefilm 后台录入页',
 		movie:{
 			title:'',
 			doctor:'',
@@ -90,7 +90,7 @@ app.get('/admin/movie',function(req,res){
 
 app.get('/admin/list',function(req,res){
 	var data = {
-		title:'imooc 列表页',
+		title:'onefilm 列表页',
 		movies:{
 			title:'机械战警',
 			_id:1,
